@@ -1,15 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Directors from "./Directors";
-import Home from "./Home";
-import Movies from "./Movies";
 
 function NavBar() {
   const linkStyles = {
-    width: "100px",
-    padding: "12px",
+    width: "200px",
+    padding: "20px",
     margin: "0 6px 6px",
-    background: "blue",
+    background: "black",
     textDecoration: "none",
     color: "white",
   };
